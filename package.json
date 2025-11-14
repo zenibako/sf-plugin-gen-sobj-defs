@@ -89,8 +89,11 @@
   "publishConfig": {
     "access": "public"
   },
+  "resolutions": {
+    "buffer-equal-constant-time": "npm:buffer-equal@1.0.1"
+  },
   "overrides": {
-    "buffer-equal-constant-time": "^1.0.1"
+    "buffer-equal-constant-time": "npm:buffer-equal@1.0.1"
   },
   "wireit": {
     "build": {
