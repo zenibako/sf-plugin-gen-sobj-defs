@@ -1,8 +1,8 @@
 {
-  "name": "@salesforce/plugin-template-sf",
+  "name": "@salesforce/plugin-gen-sobj-defs",
   "description": "A template repository for sf plugins",
   "version": "1.1.73",
-  "author": "Salesforce",
+  "author": "Zenibako",
   "bugs": "https://github.com/forcedotcom/cli/issues",
   "dependencies": {
     "@oclif/core": "^4",
@@ -53,9 +53,6 @@
       "@salesforce/plugin-command-reference"
     ],
     "topics": {
-      "hello": {
-        "description": "Commands to say hello."
-      },
       "sobject": {
         "description": "Work with Salesforce objects (SObjects).",
         "subtopics": {
@@ -67,7 +64,7 @@
     },
     "flexibleTaxonomy": true
   },
-  "repository": "salesforcecli/plugin-template-sf",
+  "repository": "salesforcecli/plugin-gen-sobj-defs",
   "scripts": {
     "build": "wireit",
     "clean": "sf-clean",
@@ -127,7 +124,7 @@
       "output": []
     },
     "lint": {
-      "command": "cross-env NODE_OPTIONS=--no-deprecation eslint src test --color --cache --cache-location .eslintcache",
+      "command": "eslint src test --color --cache --cache-location .eslintcache",
       "files": [
         "src/**/*.ts",
         "test/**/*.ts",
