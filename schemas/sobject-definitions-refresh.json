@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/RefreshResult",
+  "definitions": {
+    "RefreshResult": {
+      "type": "object",
+      "properties": {
+        "success": {
+          "type": "boolean"
+        },
+        "standardObjects": {
+          "type": "number"
+        },
+        "customObjects": {
+          "type": "number"
+        },
+        "totalObjects": {
+          "type": "number"
+        },
+        "cancelled": {
+          "type": "boolean"
+        }
+      },
+      "required": ["success", "standardObjects", "customObjects", "totalObjects", "cancelled"],
+      "additionalProperties": false
+    }
+  }
+}

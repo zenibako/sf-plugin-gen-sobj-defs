@@ -15,6 +15,7 @@
     "@salesforce/cli-plugins-testkit": "^5.3.41",
     "@salesforce/dev-scripts": "^11.0.4",
     "@salesforce/plugin-command-reference": "^3.1.78",
+    "cross-env": "^7.0.3",
     "eslint-plugin-sf-plugin": "^1.20.33",
     "oclif": "^4.22.41",
     "ts-node": "^10.9.2",
@@ -54,6 +55,14 @@
     "topics": {
       "hello": {
         "description": "Commands to say hello."
+      },
+      "sobject": {
+        "description": "Work with Salesforce objects (SObjects).",
+        "subtopics": {
+          "definitions": {
+            "description": "Manage SObject definitions for code completion."
+          }
+        }
       }
     },
     "flexibleTaxonomy": true
@@ -79,6 +88,12 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "resolutions": {
+    "buffer-equal-constant-time": "npm:buffer-equal@1.0.1"
+  },
+  "overrides": {
+    "buffer-equal-constant-time": "npm:buffer-equal@1.0.1"
   },
   "wireit": {
     "build": {
@@ -112,7 +127,7 @@
       "output": []
     },
     "lint": {
-      "command": "eslint src test --color --cache --cache-location .eslintcache",
+      "command": "cross-env NODE_OPTIONS=--no-deprecation eslint src test --color --cache --cache-location .eslintcache",
       "files": [
         "src/**/*.ts",
         "test/**/*.ts",
