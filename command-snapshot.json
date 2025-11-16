@@ -1,18 +1,10 @@
 [
   {
     "alias": [],
-    "command": "hello:world",
-    "flagAliases": [],
-    "flagChars": ["n"],
-    "flags": ["flags-dir", "json", "name"],
-    "plugin": "@salesforce/plugin-template-sf"
-  },
-  {
-    "alias": [],
-    "command": "sobject:definitions:refresh",
+    "command": "sobject:refresh:definitions",
     "flagAliases": [],
     "flagChars": ["o"],
     "flags": ["api-version", "flags-dir", "json", "sobject-category", "target-org"],
-    "plugin": "@salesforce/plugin-template-sf"
+    "plugin": "@salesforce/plugin-gen-sobj-defs"
   }
 ]
