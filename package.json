@@ -1,9 +1,9 @@
 {
-  "name": "@salesforce/plugin-gen-sobj-defs",
-  "description": "A template repository for sf plugins",
+  "name": "@zenibako/plugin-gen-sobj-defs",
+  "description": "A Salesforce CLI plugin that generates SObject definitions for code completion in IDEs",
   "version": "1.1.73",
   "author": "Zenibako",
-  "bugs": "https://github.com/forcedotcom/cli/issues",
+  "bugs": "https://github.com/zenibako/plugin-gen-sobj-defs/issues",
   "dependencies": {
     "@oclif/core": "^4",
     "@salesforce/core": "^8.23.4",
@@ -64,7 +64,7 @@
     },
     "flexibleTaxonomy": true
   },
-  "repository": "salesforcecli/plugin-gen-sobj-defs",
+  "repository": "zenibako/plugin-gen-sobj-defs",
   "scripts": {
     "build": "wireit",
     "clean": "sf-clean",

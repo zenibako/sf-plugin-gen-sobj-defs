@@ -1,6 +1,6 @@
 # plugin-gen-sobj-defs
 
-[![NPM](https://img.shields.io/npm/v/@salesforce/plugin-gen-sobj-defs.svg?label=@salesforce/plugin-gen-sobj-defs)](https://www.npmjs.com/package/@salesforce/plugin-gen-sobj-defs) [![Downloads/week](https://img.shields.io/npm/dw/@salesforce/plugin-gen-sobj-defs.svg)](https://npmjs.org/package/@salesforce/plugin-gen-sobj-defs) [![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](https://opensource.org/license/apache-2-0)
+[![NPM](https://img.shields.io/npm/v/@zenibako/plugin-gen-sobj-defs.svg?label=@zenibako/plugin-gen-sobj-defs)](https://www.npmjs.com/package/@zenibako/plugin-gen-sobj-defs) [![Downloads/week](https://img.shields.io/npm/dw/@zenibako/plugin-gen-sobj-defs.svg)](https://npmjs.org/package/@zenibako/plugin-gen-sobj-defs) [![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](https://opensource.org/license/apache-2-0)
 
 ## About
 
@@ -11,12 +11,12 @@ The plugin connects to your Salesforce org, fetches SObject metadata, and genera
 ## Install
 
 ```bash
-sf plugins install @salesforce/plugin-gen-sobj-defs@x.y.z
+sf plugins install @zenibako/plugin-gen-sobj-defs@x.y.z
 ```
 
 ## Issues
 
-Please report any issues at https://github.com/forcedotcom/cli/issues
+Please report any issues at https://github.com/zenibako/plugin-gen-sobj-defs/issues
 
 ## Contributing
 
@@ -29,13 +29,7 @@ Please report any issues at https://github.com/forcedotcom/cli/issues
 5. Create a _topic_ branch in your fork. Note, this step is recommended but technically not required if contributing using a fork.
 6. Edit the code in your fork.
 7. Write appropriate tests for your changes. Try to achieve at least 95% code coverage on any new code. No pull request will be accepted without unit tests.
-8. Sign CLA (see [CLA](#cla) below).
-9. Send us a pull request when you are done. We'll review your code, suggest any needed changes, and merge it in.
-
-### CLA
-
-External contributors will be required to sign a Contributor's License
-Agreement. You can do so by going to https://cla.salesforce.com/sign-cla.
+8. Send us a pull request when you are done. We'll review your code, suggest any needed changes, and merge it in.
 
 ### Build
 

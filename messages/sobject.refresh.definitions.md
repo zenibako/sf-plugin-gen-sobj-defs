@@ -1,6 +1,6 @@
 # summary
 
-Refresh SObject definitions for your org
+Refresh SObject definitions for your org.
 
 # description
 
@@ -24,11 +24,11 @@ You can choose to refresh all SObjects, only custom objects, or only standard ob
 
 # flags.target-org.summary
 
-Username or alias of the target org
+Username or alias of the target org.
 
 # flags.sobject-category.summary
 
-The category of SObjects to refresh
+The category of SObjects to refresh.
 
 # flags.sobject-category.description
 
@@ -36,7 +36,7 @@ Specify which category of SObjects to refresh: all, custom, or standard. Default
 
 # flags.api-version.summary
 
-Override the API version used for the connection
+Override the API version used for the connection.
 
 # flags.api-version.description
 

@@ -19,7 +19,7 @@ import { Messages, AuthInfo, Connection } from '@salesforce/core';
 import { type SObjectCategory, generateSObjects } from '../../../sobjectGenerator.js';
 
 Messages.importMessagesDirectoryFromMetaUrl(import.meta.url);
-const messages = Messages.loadMessages('@salesforce/plugin-gen-sobj-defs', 'sobject.refresh.definitions');
+const messages = Messages.loadMessages('@zenibako/plugin-gen-sobj-defs', 'sobject.refresh.definitions');
 
 export type DefinitionsResult = {
   success: boolean;
